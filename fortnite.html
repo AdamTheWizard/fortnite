@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0' />
+    <meta name="theme-color" content="#1B1F22" />
+
+    <!--  JQuery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="fortnite.css">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
+
+<body>
+
+    <div id="header-div">
+        <h1 id="header-text">FORTNITE Stats</h1>
+    </div>
+
+    <div id="container">
+
+        <div id="input-div">
+            <input value="AdamTheWhiz" id="input" type="text" placeholder="Epic username..."></input>
+            <button id="btn"><i class="fas fa-search"></i></button>
+        </div>
+
+        <div id="data-div">
+            <h3 id="display-name" class="stats"></h3>
+            
+            <p id="kd" class="stats"></p><br>
+            <p id="kills" class="stats"></p><br>
+            <p id="deaths" class="stats"></p><br>
+            <p id="played" class="stats"><p><br>
+            <p id="score" class="stats"></p><br>
+        </div>
+
+    </div>
+
+
+    <!-- Ajax Requests -->
+    <script type="text/javascript" src=fortnite.js></script>
+    
+</body>
+
+</html>
