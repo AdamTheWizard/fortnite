@@ -91,4 +91,8 @@ body {
     #header-text {
         font-size: 2em;
     }
+    
+    .stats {
+        margin-top: 10px;
+    }
 }
